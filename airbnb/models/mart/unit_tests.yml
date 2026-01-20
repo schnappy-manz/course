@@ -1,4 +1,4 @@
-unit_test:
+unit_tests:
   - name: unittest_fullmoon_matcher
     model: mart_fullmoon_reviews
     given:
@@ -13,5 +13,5 @@ unit_test:
     expect:
       rows:
         - {review_date: '2025-01-13', is_full_moon: "not full moon"}
-        - {review_date: '2025-01-14d', is_full_moon: "not full moon"}
+        - {review_date: '2025-01-14', is_full_moon: "not full moon"}
         - {review_date: '2025-01-15', is_full_moon: "full moon"}
