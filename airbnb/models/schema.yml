@@ -12,7 +12,7 @@ models:
           - not_null
 
       - name: host_id
-        description: The hosts id. referenced from host table
+        description: The hosts id. Referenced from host table
         data_tests:
           - not_null
           - relationships:
@@ -28,6 +28,7 @@ models:
                 values: ['Entire home/apt', 'Private room', 'Shared room', 'Hotel room']
 
       - name: minimum_nights
+        description: '{{doc("dim_listings_cleansed__minimum_nights")}}'
         data_tests:
           - positive_values
   
