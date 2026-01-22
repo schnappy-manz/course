@@ -4,6 +4,6 @@
 Hey, welcome to or Airbnb ppeline documentation!
 
 Here is the schema of our input data:
-![input schema](https://dbtlearn.s3.us-east-2.amazonaws.com/inpute_schema.png)
+![input schema](assets/inpute_schema.png)
 
 {% enddocs %}
